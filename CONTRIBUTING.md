@@ -95,6 +95,17 @@ BREAKING CHANGE: the endpoint now returns start and end dates as ISO 8601 string
 - Use **Create a merge commit**. Do not squash or rebase, because that rewrites the commit history that is used for grading.
 - Do not delete the branch after merging; the branch and its history are evidence of the work.
 
+## 5. Reviewing
+
+1. Open the pull request, go to **Files changed** and comment on the lines you want to discuss.
+2. Check the change against the Definition of Done in the Jira issue.
+3. Start each comment with a label:
+   - `[blocking]` must be fixed before merging
+   - `[suggestion]` optional improvement
+   - `[question]` you need an explanation
+4. Finish with **Review changes** → **Approve** or **Request changes**.
+5. Approve only when every `[blocking]` comment is resolved.
+
 ## How Jira links your work
 
 Jira's GitHub integration finds the issue key in:
