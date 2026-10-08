@@ -15,6 +15,7 @@ SE 4910 / SE 4920 Senior Project, Software Engineering, Yaşar University.
 
 ```
 Hasat/
+├── .github/           Pull request template
 ├── docs/              Project documents (proposal, statement of work, reports)
 ├── CONTRIBUTING.md    Team agreement for branches, commits and pull requests
 └── README.md
