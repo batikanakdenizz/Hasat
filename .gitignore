@@ -1,0 +1,20 @@
+# Language- and framework-specific entries will be added once the technology stack is chosen.
+# Templates: https://github.com/github/gitignore
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Office temporary files
+~$*
