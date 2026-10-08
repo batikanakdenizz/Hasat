@@ -87,7 +87,8 @@ BREAKING CHANGE: the endpoint now returns start and end dates as ISO 8601 string
 2. Title: `HST-<n>: <issue summary>`, e.g. `HST-11: Set up repository`.
 3. Add a teammate in the **Reviewers** field of the pull request. Move the Jira issue to **Review**.
 4. The review takes place in the pull request discussion. The author answers every comment and pushes fixes to the same branch.
-5. Merge after the reviewer approves, then move the Jira issue to **Done**.
+5. If the reviewer requests changes, the author moves the Jira issue back to **In Progress**, pushes the fixes and moves it to **Review** again.
+6. After the reviewer approves, the **Team Leader** merges the pull request and moves the Jira issue to **Done**.
 
 **Merging**
 
@@ -113,11 +114,13 @@ Jira shows branches, commits and pull requests automatically when they contain t
 
 **Statuses — update immediately**
 
-| When you…                              | Move the Jira issue to |
-|----------------------------------------|------------------------|
-| start working on the issue             | **In Progress**        |
-| open a pull request and add a reviewer | **Review**             |
-| merge the pull request                 | **Done**               |
+| When…                                                  | Move the Jira issue to |
+|--------------------------------------------------------|------------------------|
+| you start working on the issue                         | **In Progress**        |
+| you open a pull request and add a reviewer             | **Review**             |
+| the reviewer requests changes                          | **In Progress**        |
+| you have pushed the fixes                              | **Review**             |
+| the Team Leader merges the pull request                | **Done**               |
 
 **Descriptions — update together, not after every small change**
 
