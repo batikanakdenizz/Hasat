@@ -46,7 +46,7 @@ Commit messages follow [Conventional Commits 1.0.0](https://www.conventionalcomm
 
 1. `HST-<n>` is the key of the issue your branch belongs to, in uppercase.
 2. `<description>` is in English, in the imperative mood ("add", not "added" or "adds"), starts with a lowercase letter and has no full stop at the end.
-3. Keep the first line under 72 characters. Use the body to explain *why* when the change is not obvious.
+3. Keep the first line to about 72 characters. Use the body to explain *why* when the change is not obvious.
 4. One commit = one logical change. Do not mix unrelated changes in one commit.
 
 **Types**
