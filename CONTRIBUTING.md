@@ -107,6 +107,22 @@ BREAKING CHANGE: the endpoint now returns start and end dates as ISO 8601 string
 4. Finish with **Review changes** → **Approve** or **Request changes**.
 5. Approve only when every `[blocking]` comment is resolved.
 
+## 6. Keeping Jira and GitHub in sync
+
+Jira shows branches, commits and pull requests automatically when they contain the issue key (`HST-<n>`). Statuses and descriptions are updated by hand.
+
+**Statuses — update immediately**
+
+| When you…                              | Move the Jira issue to |
+|----------------------------------------|------------------------|
+| start working on the issue             | **In Progress**        |
+| open a pull request and add a reviewer | **Review**             |
+| merge the pull request                 | **Done**               |
+
+**Descriptions — update together, not after every small change**
+
+If the scope of your work changes (extra files, settings or steps), update the Jira description (What to do + Definition of Done) and the pull request description in one go — at the latest before you ask for a review.
+
 ## How Jira links your work
 
 Jira's GitHub integration finds the issue key in:
