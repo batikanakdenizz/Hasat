@@ -84,7 +84,7 @@ BREAKING CHANGE: the endpoint now returns start and end dates as ISO 8601 string
 ## 4. Pull requests
 
 1. Push your branch and open a Pull Request into `main`.
-2. Title: `HST-<n>: <issue summary>`, e.g. `HST-11: Set up repository`.
+2. Title: `HST-<n>: <short summary>`, e.g. `HST-11: Set up repository`.
 3. Add a teammate in the **Reviewers** field of the pull request. Move the Jira issue to **Review**.
 4. The review takes place in the pull request discussion. The author answers every comment and pushes fixes to the same branch.
 5. If the reviewer requests changes, the author moves the Jira issue back to **In Progress**, pushes the fixes and moves it to **Review** again.
