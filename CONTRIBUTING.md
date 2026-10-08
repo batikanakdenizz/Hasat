@@ -94,6 +94,7 @@ BREAKING CHANGE: the endpoint now returns start and end dates as ISO 8601 string
 - Never push directly to `main`.
 - Use **Create a merge commit**. Do not squash or rebase, because that rewrites the commit history that is used for grading.
 - Do not delete the branch after merging; the branch and its history are evidence of the work.
+- `main` is protected: a pull request with at least one approval is required, and only merge commits are allowed.
 
 ## 5. Reviewing
 
